@@ -1,0 +1,307 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1937 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\ic151206\MPLABXProjects\develop.X\main.c
+[v _get_rand get_rand `(i  1 e 2 0 ]
+"22
+[v _main main `(v  1 e 1 0 ]
+"15 C:\Users\ic151206\MPLABXProjects\develop.X\u_chi_ha_ra_7seg.h
+[v _seg7_1 seg7_1 `(v  1 e 1 0 ]
+"20
+[v _seg7_2 seg7_2 `(v  1 e 1 0 ]
+"28
+[v _seg7_3 seg7_3 `(v  1 e 1 0 ]
+"36
+[v _seg7_4 seg7_4 `(v  1 e 1 0 ]
+"43
+[v _seg7_5 seg7_5 `(v  1 e 1 0 ]
+"51
+[v _seg7_6 seg7_6 `(v  1 e 1 0 ]
+"60
+[v _seg7_7 seg7_7 `(v  1 e 1 0 ]
+"66
+[v _seg7_8 seg7_8 `(v  1 e 1 0 ]
+"76
+[v _seg7_9 seg7_9 `(v  1 e 1 0 ]
+"85
+[v _seg7_0 seg7_0 `(v  1 e 1 0 ]
+"94
+[v _light_right light_right `(v  1 e 1 0 ]
+"98
+[v _light_left light_left `(v  1 e 1 0 ]
+"102
+[v _dark dark `(v  1 e 1 0 ]
+"112
+[v _lit lit `(v  1 e 1 0 ]
+"149
+[v _light_init light_init `(v  1 e 1 0 ]
+"10 C:\Users\ic151206\MPLABXProjects\develop.X\u_chi_ha_ra_LED.h
+[v _init_LED init_LED `(v  1 e 1 0 ]
+"21
+[v _lit_LED lit_LED `(v  1 e 1 0 ]
+"1334 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f1937.h
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1456
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"8152
+[v _LATA2 LATA2 `VEb  1 e 0 @2146 ]
+"8154
+[v _LATA3 LATA3 `VEb  1 e 0 @2147 ]
+"8166
+[v _LATB1 LATB1 `VEb  1 e 0 @2153 ]
+"8168
+[v _LATB2 LATB2 `VEb  1 e 0 @2154 ]
+"8170
+[v _LATB3 LATB3 `VEb  1 e 0 @2155 ]
+"8172
+[v _LATB4 LATB4 `VEb  1 e 0 @2156 ]
+"8174
+[v _LATB5 LATB5 `VEb  1 e 0 @2157 ]
+"8176
+[v _LATB6 LATB6 `VEb  1 e 0 @2158 ]
+"8178
+[v _LATB7 LATB7 `VEb  1 e 0 @2159 ]
+"8196
+[v _LATD0 LATD0 `VEb  1 e 0 @2168 ]
+"8198
+[v _LATD1 LATD1 `VEb  1 e 0 @2169 ]
+"8200
+[v _LATD2 LATD2 `VEb  1 e 0 @2170 ]
+"8202
+[v _LATD3 LATD3 `VEb  1 e 0 @2171 ]
+"8204
+[v _LATD4 LATD4 `VEb  1 e 0 @2172 ]
+"8206
+[v _LATD5 LATD5 `VEb  1 e 0 @2173 ]
+"8208
+[v _LATD6 LATD6 `VEb  1 e 0 @2174 ]
+"8210
+[v _LATD7 LATD7 `VEb  1 e 0 @2175 ]
+"8418
+[v _RC0 RC0 `VEb  1 e 0 @112 ]
+"8420
+[v _RC1 RC1 `VEb  1 e 0 @113 ]
+"8952
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1122 ]
+"8954
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1123 ]
+"8980
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1136 ]
+"8982
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1137 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\rand.c
+[v _randx randx `l  1 s 4 randx ]
+"22 C:\Users\ic151206\MPLABXProjects\develop.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"26
+[v main@frag_SW3 frag_SW3 `i  1 a 2 69 ]
+[v main@frag_SW2 frag_SW2 `i  1 a 2 67 ]
+"24
+[v main@left left `i  1 a 2 65 ]
+[v main@right right `i  1 a 2 63 ]
+"25
+[v main@cnt cnt `i  1 a 2 61 ]
+"81
+} 0
+"21 C:\Users\ic151206\MPLABXProjects\develop.X\u_chi_ha_ra_LED.h
+[v _lit_LED lit_LED `(v  1 e 1 0 ]
+{
+[v lit_LED@n n `DCCi  1 p 2 7 ]
+"50
+} 0
+"10
+[v _init_LED init_LED `(v  1 e 1 0 ]
+{
+"19
+} 0
+"112 C:\Users\ic151206\MPLABXProjects\develop.X\u_chi_ha_ra_7seg.h
+[v _lit lit `(v  1 e 1 0 ]
+{
+[v lit@n n `DCCi  1 p 2 0 ]
+"147
+} 0
+"76
+[v _seg7_9 seg7_9 `(v  1 e 1 0 ]
+{
+"83
+} 0
+"66
+[v _seg7_8 seg7_8 `(v  1 e 1 0 ]
+{
+"74
+} 0
+"60
+[v _seg7_7 seg7_7 `(v  1 e 1 0 ]
+{
+"64
+} 0
+"51
+[v _seg7_6 seg7_6 `(v  1 e 1 0 ]
+{
+"58
+} 0
+"43
+[v _seg7_5 seg7_5 `(v  1 e 1 0 ]
+{
+"49
+} 0
+"36
+[v _seg7_4 seg7_4 `(v  1 e 1 0 ]
+{
+"41
+} 0
+"28
+[v _seg7_3 seg7_3 `(v  1 e 1 0 ]
+{
+"34
+} 0
+"20
+[v _seg7_2 seg7_2 `(v  1 e 1 0 ]
+{
+"26
+} 0
+"15
+[v _seg7_1 seg7_1 `(v  1 e 1 0 ]
+{
+"18
+} 0
+"85
+[v _seg7_0 seg7_0 `(v  1 e 1 0 ]
+{
+"92
+} 0
+"149
+[v _light_init light_init `(v  1 e 1 0 ]
+{
+"153
+} 0
+"94
+[v _light_right light_right `(v  1 e 1 0 ]
+{
+[v light_right@a a `DCCi  1 p 2 0 ]
+"96
+} 0
+"98
+[v _light_left light_left `(v  1 e 1 0 ]
+{
+[v light_left@a a `DCCi  1 p 2 0 ]
+"100
+} 0
+"102
+[v _dark dark `(v  1 e 1 0 ]
+{
+"110
+} 0
+"18 C:\Users\ic151206\MPLABXProjects\develop.X\main.c
+[v _get_rand get_rand `(i  1 e 2 0 ]
+{
+"20
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"17
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 52 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 56 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 51 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 43 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 11 ]
+[v ___ftmul@f2 f2 `f  1 p 3 14 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 38 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 42 ]
+[v ___ftdiv@exp exp `uc  1 a 1 41 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 37 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 27 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 30 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 10 ]
+"32
+[v ___awtoft@c c `i  1 p 2 5 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
