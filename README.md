@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pic  
 簡易スロット  
 
@@ -7,3 +8,7 @@ Device: PIC16F1927
   
 Hardware Tools: PICkit3  
 '''
+=======
+# Pic-ic2
+nit-ok ic2でやったPicのソース
+>>>>>>> origin/master
