@@ -1,10 +1,9 @@
 /*
-*  encoding:utf-8
-*  created by u_chi_ha_ra_@ic151206
 *  
 *  init_LED(); 呼び出すとLEDが全部消える.
 *  lit_LED(n); nに光らせたい場所の数字を入れると光ります.
 *  kieru_LED(n); nに消したい場所の数字を入れるとそこが消えます. 1~8以外を入れると全部消えます.
+*
 */
 
 void init_LED(void) {

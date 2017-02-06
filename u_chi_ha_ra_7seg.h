@@ -1,18 +1,12 @@
 /*
-*  encoding:utf-8
-*  7セグメントLEDを光らすための関数たち
-*
-*  created by ic151206@u_chi_ha_ra_
-*
 *
 *  lit(n); nの部分に光らせたい場所の番号を入れると光ります.
 *  derk(); 7segを消します.
 *  light_init(); 二つのトランジスタをオフ(?)にします,
-*  light_right(n);  引数に0を渡すと右の7segが光らなくなり1を渡すと光るようになります.
-*  light_left(n); 上と同じ.
+*  light_right(n); 引数に0を渡すと右の7segが光らなくなり1を渡すと光るようになります.
+*  light_left(n); 引数に0を渡すと左の7segが光らなくなり,1を渡すと光るようになります.
 *
 */
-
 
 void seg7_1(void){
     LATB2 = 1;
