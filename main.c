@@ -21,7 +21,7 @@ void main(void)
 {   
     int right, left; //7segで表示する値
     int cnt = 0;  //正解カウント用の変数
-    int frag_SW2 = 0, frag_SW3 = 0; //タクトスイッチが押されているかのフラグ
+    int flag_SW2 = 0, flag_SW3 = 0; //タクトスイッチが押されているかのフラグ
     
      //7seg LED コモン
     TRISA2 = 0; //出力に設定
@@ -41,26 +41,26 @@ void main(void)
 
     while (1) {
         if (RC1 == 0 && RC0 == 1) { //SW3押されたか(右)
-            frag_SW3 = 1;
+            flag_SW3 = 1;
         }
         else if (RC0 == 0 && RC1 == 1) { //SW2押されたか(左)
-            frag_SW2 = 1;
+            flag_SW2 = 1;
         }
-        else if (frag_SW2 == 1 && frag_SW3 == 1) { //両方押されたら
+        else if (flag_SW2 == 1 && flag_SW3 == 1) { //両方押されたら
             if (right == left) {  //right == left だったら
                 cnt += 1;
                 lit_LED(cnt % 9);
-                frag_SW2 = 0;
-                frag_SW3 = 0;  
+                flag_SW2 = 0;
+                flag_SW3 = 0;  
             }
             else { //間違いだったら
-                frag_SW2 = 0;
-                frag_SW3 = 0;     
+                flag_SW2 = 0;
+                flag_SW3 = 0;     
             }
         }
     
-        right = frag_SW2 == 1 ? right : get_rand();
-        left  = frag_SW3 == 1 ? left : get_rand();
+        right = flag_SW2 == 1 ? right : get_rand();
+        left  = flag_SW3 == 1 ? left : get_rand();
         
         light_init();
         
